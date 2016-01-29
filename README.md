@@ -4,4 +4,4 @@
 
 Please fork and clone the starter code from this repository for the codealong!
 
-<a href='https://learn.co/lessons/html-map-contact-form-code-along' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/html-map-contact-form-code-along' title='HTML Map and Contact Form Code-Along'>HTML Map and Contact Form Code-Along</a> on Learn.co and start learning to code for free.</p>
