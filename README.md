@@ -61,7 +61,7 @@ Next let's add a contact form. Under our `<!-- Contact Form -->` comment let's s
 <form>...</form>
 ```
 
-We need to give our opening form element two attributes the first is an action which is the location that our form will submit its input informatuion to. In our case we will be submitting to a PHP script that will send an email later on, for now we will insert a `#` pound sign as a placeholder, second we will include the method attribute. this tells the browser the type of request we are making to the location we are submitting in the action. Here we will set the value as `post`.
+We need to give our opening form element two attributes the first is an action which is the location that our form will submit its input information to. In our case we will be submitting to a PHP script that will send an email later on, for now we will insert a `#` pound sign as a placeholder, second we will include the method attribute. this tells the browser the type of request we are making to the location we are submitting in the action. Here we will set the value as `post`.
 
 ```html
 <!-- Contact Form -->
@@ -135,3 +135,5 @@ Since we are satisfied with our work on our contact page and we feel this featur
 After you're finished, make sure you <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">install Firefox</a> if you haven't already as it is required for the screenshot tests to run. Then, type `learn` command from Terminal to run local tests (Mac), Alternately use the `learn-test` command for Windows. Then submit a pull request on Github and move on to the next lesson!
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/html-map-contact-form-code-along' title='HTML Map and Contact Form Code-Along'>HTML Map and Contact Form Code-Along</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/html-map-contact-form-code-along'>HTML Map Contact Form Code Along</a> on Learn.co and start learning to code for free.</p>
