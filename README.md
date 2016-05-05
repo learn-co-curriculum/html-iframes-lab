@@ -37,7 +37,7 @@ Next, in your browser head to [https://www.google.com/maps](https://www.google.c
 
 Now click the menu icon located at the top left of the screen and select **Share or embed map**. Then click the **Embed map** tab.
 
-Next to the link with the iframe code click the drop menu to select the size of the iframe and choose **Custom size**. Then set the width to `425` pixels wide and set the height to `350` pixels tall. the highlight the iframe embed code and copy it to your clipboard using Command + c (Mac) or Ctrl + c (Windows) and the head back to your code editor and paste the code snippet Command + v (Mac) or Ctrl + v (Windows) under the comment `<!--map-->` like so,
+Next to the link with the iframe code click the drop menu to select the size of the iframe and choose **Custom size**. Then set the width to `425` pixels wide and set the height to `350` pixels tall. Then highlight the iframe embed code and copy it to your clipboard using Command + c (Mac) or Ctrl + c (Windows) and the head back to your code editor and paste the code snippet Command + v (Mac) or Ctrl + v (Windows) under the comment `<!--map-->` like so,
 
 ```html
 <!-- Map -->
