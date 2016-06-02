@@ -109,7 +109,7 @@ Again, the `for` attribute value when matching an `id` attribute value will link
 
 As discussed in the previous lesson, the `name` attribute is important as it stores the users input under that name (variable). This comes in handy for making use of the users input server-side.
 
-The `placeholder` value will appear inside the form input until the uiser starts typing in their own content.
+The `placeholder` value will appear inside the form input until the user starts typing in their own content.
 
 The `required` attribute will prevent the browser from submitting the form until all required fields are filled in properly. Again this is functionality is baked into HTML5 for us automatically.
 
