@@ -18,6 +18,8 @@ Building upon previous code alongs, in this exercise you will add an embedded if
 
 <iframe width="640" height="480" src="//www.youtube.com/embed/lYHcdsF0Iug?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
 
+**NOTE**: The Google Maps interface has changed slightly since this video was recorded. We'll re-record the video ASAP, but we're sure you can find your way around (the changes are minimal and intuitive).
+
 ### Map Embed
 
 Start by creating a new feature branch in Terminal by typing `git checkout -b contact-page`. 
