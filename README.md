@@ -136,6 +136,4 @@ Since we are satisfied with our work on our contact page and we feel this featur
 
 After you're finished, submit a pull request on Github and move on to the next lesson!
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/html-map-contact-form-code-along' title='HTML Map and Contact Form Code-Along'>HTML Map and Contact Form Code-Along</a> on Learn.co and start learning to code for free.</p>
-
 <p class='util--hide'>View <a href='https://learn.co/lessons/html-map-contact-form-code-along'>HTML Map Contact Form Code Along</a> on Learn.co and start learning to code for free.</p>
