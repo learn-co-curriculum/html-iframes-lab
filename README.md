@@ -52,7 +52,7 @@ Next go ahead and save this page and preview it in the browser you should see th
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6049.881319200985!2d-74.00151372674895!3d40.69730452928296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a47df06b185%3A0xc889234bc07c42ee!2sBrooklyn+Heights%2C+Brooklyn%2C+NY+11201!5e0!3m2!1sen!2sus!4v1461598289488" width="425" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-Looks good! Let's stage and commit our code. In Terminal type `git add contact.html` and press return. Then type `git commit -m "add google map to contact page"` and press return. Then we will push up our feature branch as a backup for safe keeping, type `git push -u origin contact-page` and press return.
+Looks good! Let's stage and commit our code. In Terminal type `git add contact.html` and press return. Then type `git commit -am "add google map to contact page"` and press return. Then we will push up our feature branch as a backup for safe keeping, type `git push -u origin contact-page` and press return.
 
 ### Form
 
@@ -137,3 +137,5 @@ Since we are satisfied with our work on our contact page and we feel this featur
 After you're finished, submit a pull request on Github and move on to the next lesson!
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/html-map-contact-form-code-along'>HTML Map Contact Form Code Along</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/html-map-contact-form-code-along'>HTML Map Contact Form Code-Along</a> on Learn.co and start learning to code for free.</p>
