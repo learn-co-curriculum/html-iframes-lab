@@ -48,7 +48,7 @@ Next to the link with the iframe code click the drop menu to select the size of 
 
 This long code snippet uses the `<iframe>` element that allows us to load another HTML page inside of a frame within our HTML page. It is is like looking through a window from our page into another page displaying a Google Map.
 
-Next go ahead and save this page and preview it in the browser you should see the map looking something like this,
+Next go ahead and save this page and preview it in the browser. The map should look something like this:
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6049.881319200985!2d-74.00151372674895!3d40.69730452928296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a47df06b185%3A0xc889234bc07c42ee!2sBrooklyn+Heights%2C+Brooklyn%2C+NY+11201!5e0!3m2!1sen!2sus!4v1461598289488" width="425" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
 
@@ -63,7 +63,7 @@ Next let's add a contact form. Under our `<!-- Contact Form -->` comment let's s
 <form>...</form>
 ```
 
-We need to give our opening form element two attributes the first is an action which is the location that our form will submit its input information to. In our case we will be submitting to a PHP script that will send an email later on, for now we will insert a `#` pound sign as a placeholder, second we will include the method attribute. this tells the browser the type of request we are making to the location we are submitting in the action. Here we will set the value as `post`.
+We need to give our opening form element two attributes. The first is an action which is the location that our form will submit its input information to. In our case we will be submitting to a PHP script that will send an email later on. For now, we will insert a `#` pound sign as a placeholder. Second, we will include the method attribute. This tells the browser the type of request we are making to the location we are submitting in the action. Here we will set the value as `post`.
 
 ```html
 <!-- Contact Form -->
