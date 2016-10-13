@@ -105,7 +105,7 @@ Let's fill in the rest of our inputs.
 </form>
 ```
 
-The `type` attribute as "text" vs "email" will be recognized by the browser so that when a type of email is also required it will validate for you whether the input matches an email including the "@" this is a feature brought to us as part of HTML version 5. Additonally the type of "tel" will bring up the numeric pad on mobile devices where as the type of "text" will bring up the alphabet keypad. This support varies from device to device though.
+The `type` attribute (e.g., "text" vs "email") will be recognized by the browser so that when type email is required, the form will validate that the input matches the format of an email address, including the "@". This is a feature brought to us as part of HTML version 5. Additonally, the type "tel" will bring up the numeric pad on mobile devices, whereas the type "text" will bring up the alphabet keypad. Support varies from device to device, though.
 
 Again, the `for` attribute value when matching an `id` attribute value will link them so that clicking on a label will select the cursor into its related input.
 
