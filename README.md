@@ -125,7 +125,7 @@ Next, save the file and refresh the page in the browser to see your form appear.
     <input type="tel" id="phon" name="phone" placeholder="your phone (optional)" style="border:1px solid black; display:block; padding:5px;">
     <label for="message">Message</label>
     <textarea id="message" name="message" rows="10"></textarea>
-    <input type="submit" value="send" style="border:1px solid black; display:block; padding:5px;">
+    <input type="submit" value="send" style="border:1px solid black; display:block; padding:5px;" disabled onClick="function(){ alert('Submit has been disabled to prevent interference with Learn!') }">
 </form>
 
 Ok, looks good! Now stage and commit your code. In Terminal type `git add contact.html` and press return, then type `git commit -m "add contact form to contact page"` and press return. Then type `git push origin contact-page`.
