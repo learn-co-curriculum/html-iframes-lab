@@ -79,7 +79,7 @@ Next, we would like to create inputs for the user to insert their name, email, p
 </form>
 ```
 
-On line 3 we use a `<label>` element to create a text label associated with the form input. By using the `for` attribute set on the label to match the value of the `id` attribute in the input this ties the label to the input so that if a user clicks on the text of the label "Name" it will select the input next to it. You can test this on the example below:
+On line 3 we use a `<label>` element to create a text label associated with the form input. If we use the `for` attribute on the label, and match its value to the `id` attribute in an input, this ties the label to the input so that if a user clicks on the text of the label, "Name," it will select the input next to it. You can test this on the example below:
 
 <label for="fullname">Name</label> <input type="text" id="fullname" name="fullname" placeholder="your name" style="border:1px solid black;padding:5px;">
 
