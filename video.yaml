@@ -1,0 +1,516 @@
+{
+              title: "26 HTML Map & Contact Form - YouTube",
+           host_url: "https://www.youtube.com/watch?v=lYHcdsF0Iug",
+          presenter: "Jonathan Grover",
+             length: "18:54",
+     slides_summary: [
+        {
+             start_offset: "00:00",
+               end_offset: "00:10",
+                  bullets: [
+                "in this exercise we're going to update",
+                "the contacts page by adding an iframe",
+                "with Google Maps embedded into it as",
+                "well as a contact form to start off with"
+            ]
+        },
+        {
+             start_offset: "00:10",
+               end_offset: "00:56",
+                  bullets: [
+                "let's go ahead and open up terminal and",
+                "I'm going to navigate to the directory",
+                "of the exceptional Realty project and",
+                "we'll go ahead and call get status just",
+                "to check everything and all looks well",
+                "and I'll call get branch and we can see",
+                "last time here we had created the main",
+                "pages branch but currently we're on the",
+                "master branch and I think that I'll go",
+                "ahead and create a new feature branch",
+                "for this project so I'm going to do git",
+                "checkout dash B and we'll go ahead and",
+                "call this one a contact page okay and"
+            ]
+        },
+        {
+             start_offset: "00:56",
+               end_offset: "01:30",
+                  bullets: [
+                "then I'm going to go ahead and bring",
+                "this up in sublime text all right and",
+                "we'll double click on the contact page",
+                "to bring that up okay so here inside of",
+                "the contact page underneath this h3 that",
+                "says contact let's go ahead and add in a",
+                "map here and we'll also go ahead and add",
+                "in a contact form"
+            ]
+        },
+        {
+             start_offset: "01:30",
+               end_offset: "03:37",
+                  bullets: [
+                "all right so we'll go ahead and start",
+                "off with the map let's go ahead and open",
+                "up the browser and we'll open up a new",
+                "tab and I'm going to go to",
+                "maps.google.com okay and I'm in the new",
+                "version of Google Maps here and I'm",
+                "going to go ahead and search for",
+                "Brooklyn Heights Brooklyn New York and",
+                "here of course you would type in the",
+                "address of your business and I'm just",
+                "going to type in this general area okay",
+                "and then you can zoom in and zoom out",
+                "and make sure that the map looks exactly",
+                "the way that you want it to I'm just",
+                "going to make sure to include like these",
+                "two major freeways here okay and then",
+                "we're going to go down to the bottom",
+                "right hand corner of the screen and",
+                "click on this little Settings gear and",
+                "you can see here that there is a link",
+                "that says share and embed map so when we",
+                "click that this little window pops up",
+                "the first thing it shows you is a share",
+                "link and I'm actually interested in the",
+                "embed map link here so we'll click that",
+                "and here you can see a small embedded",
+                "map and over in the left hand corner",
+                "here we can select different sizes we're",
+                "going to go ahead and select custom size",
+                "and I happen to know that I want this",
+                "map to be 425 pixels wide by 350 pixels",
+                "tall and then we can go ahead and click",
+                "on the iframe tag here on the bottom to",
+                "highlight it and that's going to select",
+                "all of the code that we need and you can",
+                "do a command C on Mac to copy or a",
+                "control C on Windows and we're going to"
+            ]
+        },
+        {
+             start_offset: "03:37",
+               end_offset: "04:21",
+                  bullets: [
+                "jump back over to sublime text and I'm",
+                "going to do a command V to paste which",
+                "would be a control",
+                "on Windows cool and you can see here my",
+                "iframe element appears and the source",
+                "attribute is linking to a rather long",
+                "Google Maps URL you can see the width",
+                "and the height as well as some styling",
+                "here setting the frame border to zero",
+                "and the border to zero and the style tag",
+                "here okay so let's go ahead and save the",
+                "page and then I am going to preview this",
+                "in the browser and see if it worked okay"
+            ]
+        },
+        {
+             start_offset: "04:21",
+               end_offset: "04:34",
+                  bullets: [
+                "excellent so here we can see my map and",
+                "it's embedded in an iframe you should be",
+                "able to drag it move it around zoom in",
+                "zoom out just like you would on Google",
+                "so that's pretty cool"
+            ]
+        },
+        {
+             start_offset: "04:34",
+               end_offset: "05:40",
+                  bullets: [
+                "okay so I'm quite satisfied with this so",
+                "I'm going to go ahead and commit this",
+                "code okay so the contact page is",
+                "modified we're gonna have to add that to",
+                "stage it so I'm going to do git add",
+                "contact and we're gonna do git commit",
+                "and we'll say add Google map to contact",
+                "page alright and then we can go ahead",
+                "and push this up to our origin and since",
+                "this is the first time I'm pushing it",
+                "I'll use the - you flag excellent so",
+                "that pushed that up and if I come back",
+                "to my github and refresh",
+                "I now have that branch listed here under",
+                "a contact page and you can go and see",
+                "that the iframe code is there okay"
+            ]
+        },
+        {
+             start_offset: "05:40",
+               end_offset: "06:12",
+                  bullets: [
+                "excellent so next I'd like to add a",
+                "contact form and form start off with the",
+                "opening form tag and end with the",
+                "closing form tag like so and then inside",
+                "the opening form tag there are two",
+                "important attributes I must add one of",
+                "them is an action and the action is the",
+                "file or the location on the server where",
+                "we'd actually like to submit this",
+                "information to so for the time being"
+            ]
+        },
+        {
+             start_offset: "06:12",
+               end_offset: "06:25",
+                  bullets: [
+                "since we haven't yet set up our PHP",
+                "script to handle this form submission",
+                "I'm just going to go ahead and put in a",
+                "pound symbol as a placeholder and then",
+                "we'll go ahead and set up the method and",
+                "in this case we want to post this"
+            ]
+        },
+        {
+             start_offset: "06:25",
+               end_offset: "06:49",
+                  bullets: [
+                "information so inside the form we want",
+                "to put the labels and inputs to get the",
+                "user's name their email and optionally",
+                "their phone number and then give them a",
+                "place to leave a message for us so this",
+                "is going to be a contact form that will",
+                "actually post to our server and will",
+                "send us an email with their message so"
+            ]
+        },
+        {
+             start_offset: "06:49",
+               end_offset: "07:42",
+                  bullets: [
+                "I'm going to start off by creating a",
+                "label and the label is exactly what it",
+                "sounds like it's just a text label that",
+                "relates to a specific input below it and",
+                "this first thing is their name so we",
+                "want to make a label that this input is",
+                "for their name and then underneath it",
+                "I'll put the input and we'll set the",
+                "type equal to text",
+                "and all inputs need to have a name",
+                "associated with them and the name is",
+                "going to create a variable that will",
+                "hold the value of whatever they type",
+                "into this form field so that way",
+                "whenever we post this information to the",
+                "server the server will have a variable",
+                "name to associate whatever they've typed",
+                "in here so I'm going to go ahead and",
+                "call this full name and we'll also take"
+            ]
+        },
+        {
+             start_offset: "07:42",
+               end_offset: "08:06",
+                  bullets: [
+                "advantage of html5 placeholder attribute",
+                "which allows us to put filler text into",
+                "the field until they type into it so I'm",
+                "just going to go ahead and say your name",
+                "and then lastly we will make this input",
+                "required by writing required here at the",
+                "end of the input so there's one useful"
+            ]
+        },
+        {
+             start_offset: "08:06",
+               end_offset: "09:19",
+                  bullets: [
+                "thing that you can do with labels is",
+                "let's say we'd like to be able to click",
+                "on the label and have it automatically",
+                "bring the user's cursor into this input",
+                "in order to do that we simply have to",
+                "give this input an identity so I'm going",
+                "to go ahead here and say ID equals and",
+                "we'll just go ahead and give it the same",
+                "name we'll just say full name just like",
+                "we did here so this hasn't now and",
+                "identity a full name and now if I say",
+                "the this label is for full name it's",
+                "going to associate this label with this",
+                "input so you'll see what I mean here if",
+                "we save and we open this up in the",
+                "browser you'll notice that when we click",
+                "on the name label it will automatically",
+                "move the cursor into this input so again",
+                "the way I did that was by setting this",
+                "for attribute and making sure that the",
+                "value is exactly the same as the value",
+                "in the ID here it will allow me to",
+                "associate this label with this input and"
+            ]
+        },
+        {
+             start_offset: "09:19",
+               end_offset: "10:27",
+                  bullets: [
+                "moving on we'll create another label for",
+                "the email all right and I'll probably",
+                "end up calling this one email",
+                "and then we'll put the input in here and",
+                "we'll set the type equal to email now in",
+                "html5 setting the type to email will",
+                "actually give you some email validation",
+                "and then we'll go ahead and give this an",
+                "ID of email and we'll give a name also",
+                "set to email for placeholder we will say",
+                "your email okay",
+                "and we'll also make this one required",
+                "I'm gonna make the text a bit smaller",
+                "just so we can see all of this on one",
+                "line there okay all right and we'll"
+            ]
+        },
+        {
+             start_offset: "10:27",
+               end_offset: "11:51",
+                  bullets: [
+                "create another label and this one will",
+                "be for phone",
+                "okay and we'll create an input for this",
+                "one and this one will have a type set to",
+                "te l4 telephone okay",
+                "so this type of telephone in html5 you",
+                "know depending on the device if the",
+                "device supports this what will happen",
+                "for example on most mobile devices is",
+                "when a person clicks inside of this",
+                "input on a mobile device it will bring",
+                "up the numeric keyboard with just the",
+                "numbers for phone as opposed to the",
+                "alphabetical keyboard so that's kind of",
+                "a neat feature and we'll go ahead and",
+                "give this an ID of phone and a name of",
+                "phone and a placeholder text that says",
+                "your phone and this one I'll put",
+                "optional inside of it and I'm not going",
+                "to put the required attribute at the end",
+                "of this one I will leave that out"
+            ]
+        },
+        {
+             start_offset: "11:51",
+               end_offset: "12:48",
+                  bullets: [
+                "because it is not required and we'll do",
+                "a label and this label is going to be",
+                "for message all right so again this is",
+                "the literal text that will appear on the",
+                "label this is an attribute here for",
+                "that's going to point toward the input",
+                "that has the matching ID so let's go",
+                "ahead and create that input now in this",
+                "case we don't want to put a standard",
+                "input we'd like to use one called text",
+                "area okay",
+                "so text area is slightly different in",
+                "that a text area block will give you",
+                "multiple lines that you can type into so",
+                "for the text area let's go ahead and",
+                "give this guy an ID equal to message and",
+                "we'll give it a name equal to message"
+            ]
+        },
+        {
+             start_offset: "12:48",
+               end_offset: "13:00",
+                  bullets: [
+                "another useful attribute we can put here",
+                "is",
+                "which will affect how many rows of text",
+                "can be typed into this text area box",
+                "before we see a scroll bar appear and"
+            ]
+        },
+        {
+             start_offset: "13:00",
+               end_offset: "13:38",
+                  bullets: [
+                "last but not least we want to have one",
+                "more input and this one will have a type",
+                "of submit which will create a submission",
+                "button for this form and here the value",
+                "will be set to whatever we'd like the",
+                "text to read on the button so we'll just",
+                "write send okay perfect so there's our",
+                "form so again our forms action is going",
+                "to point toward a file on the server we",
+                "don't have that setup yet so we're going",
+                "to temporarily for the time being just",
+                "put a pound symbol there we're setting",
+                "our method to post because we want to",
+                "post this information up to the server"
+            ]
+        },
+        {
+             start_offset: "13:38",
+               end_offset: "13:53",
+                  bullets: [
+                "in this case and we also have a label",
+                "which creates a text label of name and",
+                "since the for tribute is pointing toward",
+                "full name it will make the cursor jump",
+                "into the input with the matching ID of"
+            ]
+        },
+        {
+             start_offset: "13:53",
+               end_offset: "14:28",
+                  bullets: [
+                "full name okay and each input has a type",
+                "set this one's set to text which is just",
+                "a general text input and we'll bring up",
+                "the alphabetical keyboard on mobile",
+                "devices okay this one's set to email",
+                "which will validate as email if it's",
+                "required and we'll also bring up the @",
+                "symbol on certain keyboards on mobile",
+                "devices that support it okay and we also",
+                "have a type of telephone which on",
+                "supporting devices will bring up the",
+                "numerical keypad"
+            ]
+        },
+        {
+             start_offset: "14:28",
+               end_offset: "15:05",
+                  bullets: [
+                "okay so again ID is for creating a",
+                "identity for the input that will match",
+                "up with the label name is very important",
+                "we always have to have name filled out",
+                "because name is going to create the",
+                "actual name of the variable for the",
+                "information that they type into this",
+                "field so whenever the user types their",
+                "name into this input say they type in",
+                "their name is Michael Jackson then when",
+                "this information is posted to this file",
+                "on the server when it's received by the",
+                "server there's going to be a variable",
+                "there called full name that's equal to",
+                "Michael Jackson okay"
+            ]
+        },
+        {
+             start_offset: "15:05",
+               end_offset: "15:13",
+                  bullets: [
+                "cool and for the fields that we want to",
+                "be required we've added this attribute",
+                "at the end called required so we're",
+                "going to go ahead and save the file and"
+            ]
+        },
+        {
+             start_offset: "15:13",
+               end_offset: "15:45",
+                  bullets: [
+                "then we'll jump back to the browser to",
+                "give it a preview so I'll do a command R",
+                "to refresh and cool here we can see the",
+                "form appeared so right now this is not",
+                "very attractive the labels as you can",
+                "see are all horizontally and our message",
+                "box here is kind of sticking up like a",
+                "little top hat but however we'll be able",
+                "to style this later on using CSS so this",
+                "will be good for now and one nice thing"
+            ]
+        },
+        {
+             start_offset: "15:45",
+               end_offset: "16:24",
+                  bullets: [
+                "you can see is what the placeholder text",
+                "is doing let's go ahead and zoom in and",
+                "check out the placeholder text here so",
+                "you can see for example here where it",
+                "says your name and gray that's the",
+                "placeholder text",
+                "remember this text right here we said",
+                "placeholder your name right so then when",
+                "we come back you'll notice that when you",
+                "click on the form input and you start to",
+                "type Bob Berkeley then what's going to",
+                "happen is the placeholder text",
+                "disappears and then when you erase any",
+                "text the placeholder text will reappear"
+            ]
+        },
+        {
+             start_offset: "16:24",
+               end_offset: "17:33",
+                  bullets: [
+                "there cool some other things that we can",
+                "see here is some of the html5 form",
+                "validation that's working for us so let",
+                "me go ahead and zoom back out here",
+                "you'll notice if we click the send",
+                "button without having filled in anything",
+                "in these required fields that we get a",
+                "please fill out this field message will",
+                "pop up so let's go ahead and fill out",
+                "the first one and I'm going to say that",
+                "this is Bob and then if I click send",
+                "again it notices that the email has not",
+                "been filled out because this one is also",
+                "required so if I just say foo Baz and",
+                "make up something that's clearly not",
+                "even a proper email and I click send",
+                "because this has a type of email in the",
+                "input it's actually telling me that this",
+                "is not the appropriate format of an",
+                "email it says it's missing an @ symbol",
+                "okay so let's say I say foo Baz @",
+                "well now it knows that it's incomplete",
+                "so I need to put something like you know",
+                "bascomb or something like that",
+                "excellent so at that point it will",
+                "actually validate and submit the form"
+            ]
+        },
+        {
+             start_offset: "17:33",
+               end_offset: "18:26",
+                  bullets: [
+                "and again this forms not going to",
+                "actually function yet until we put in",
+                "the server-side code to make this do",
+                "something all right but all in all I'm",
+                "satisfied with that for now so I'm going",
+                "to jump back to my terminal and we're",
+                "going to go ahead and make a commit",
+                "and here we'll say add contact form",
+                "excellent",
+                "and we'll go ahead and do a git push",
+                "origin contact page great so if we're"
+            ]
+        },
+        {
+             start_offset: "18:26",
+               end_offset: "18:54",
+                  bullets: [
+                "really satisfied with this and let's say",
+                "that for whatever reason we felt this",
+                "was publishable we can go ahead and jump",
+                "over to our master branch and actually",
+                "merge in the changes so I'm going to do",
+                "that now so I did a git checkout master",
+                "and now I'll say git merge contact page",
+                "and get push origin master"
+            ]
+        }
+    ]
+}
