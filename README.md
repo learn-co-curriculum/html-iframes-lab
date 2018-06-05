@@ -11,7 +11,7 @@ clicked, the navigation would not refresh: only the iframe portion of a page
 would reload.
 
 With JavaScript, HTML content can be added and removed programmatically without
-needing a refresh. This replaced the need for iframes in many websites.
+needing a refresh. This replaced the need for the `iframe` tag in many websites.
 
 Still, there are some specific uses where iframes can be very valuable. One
 example: embedded maps.   Embedded maps are a simple option for websites that
@@ -60,7 +60,7 @@ The `iframe` element allows us to load another HTML page inside our own HTML
 page. It is like looking through a window from _our_ page into another page
 displaying a Google Map.
 
-While iframes were replaced in many places with JavaScript, they still
+While many uses of `iframe` tags were replaced with JavaScript, they still
 prove valuable in specific cases.
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/html-map-contact-form-code-along'>HTML Map Contact Form Code-along</a> on Learn.co and start learning to code for free.</p>
