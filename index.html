@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- This is a comment. I can see it in the code, but it will not appear in the browser. -->
-
-    <!-- 
-    The head section contains info for search engines and the browser and is not seen by site visitors.
-    -->
-
     <meta charset="UTF-8">
-    <title>Exceptional Realty Group - Luxury Homes - About</title>
+    <link rel="stylesheet" href="style.css">
+    <title>My Awesome Company Contact Page</title>
   </head>
   <body>
-    <!-- The body is the entire viewable area of the web page. For example we can see text, links, images, and media. -->
 
-    <h1>Exceptional</h1>
-    <h2>Realty Group</h2>
+    <h1>Company Inc.</h1>
+    <h2>For all your incorporated company needs</h2>
 
-    <!-- links -->
-    <a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
+    <!-- First, create a form tag where our inputs will be nested -->
+    <form action="#" method="post">
 
-    <img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group">
+      <!-- Add a label for 'fullname'-->
+      <label for="fullname">Name</label>
+      <!-- Add a text input with the id and name attributes set to 'fullname' -->
+      <!-- Include the place holder text "Enter Name" and make this input required -->
+      <input type="text" id="fullname" placeholder="Enter Name" required>
 
-    <!--
-    foldername/ = go inside the folder.
-    filename = use a file in the current folder.
-    ../ = leavethe current folder and go up to parent folder.
-    -->
+      <!-- Add a label for 'email'-->
+      <label for="email">Email</label>
+      <!-- Add a text input with the id and name attributes set to 'email' -->
+      <!-- Include the place holder text "Enter Email" and make this input required -->
+      <input type="email" id="email" placeholder="Enter Email" required>
 
-    <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Quae, perferendis nisi nihil debitis aspernatur doloribus quam eveniet quibusdam tempora esse! Repudiandae, assumenda, debitis doloribus ea eius ab at quae totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, inventore aliquid ipsam debitis nulla vitae omnis nemo quisquam? Obcaecati dolor ipsum distinctio reprehenderit aliquid autem ea vel provident voluptas nisi.</p>
+      <!-- Add a label for 'phone'-->
+      <label for="phone">Phone</label>
+      <!-- Add a text input with the id and name attributes set to 'phone' -->
+      <!-- Include the place holder text "Enter Telephone (optional)" -->
+      <input type="tel" id="phone" placeholder="Enter Telephone (optional)">
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, natus, nobis, tempore recusandae culpa deleniti dignissimos laborum perspiciatis exercitationem obcaecati dolores unde eveniet eius debitis perferendis provident porro. Ipsum, placeat.</p>
+      <!-- Add a label for 'message'-->
+      <label for="message">Message</label>
+      <!-- Add a textarea with the id and name attributes set to 'message' -->
+      <!-- Include the place holder text "Enter Message" -->
+      <textarea id="message" name="message" rows="10" placeholder="Enter Message"></textarea>
 
+      <!-- Add a checkbox input with the id set to 'checkbox' -->
+      <label for="checkbox">
+        <input id="checkbox" type="checkbox">Click here to agree to...</input>
+      </label>
+      <!-- Add a checkbox input with the type set to 'submit' -->
+      <input type="submit" value="send">
+    </form>
   </body>
 </html>

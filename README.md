@@ -1,84 +1,37 @@
-# HTML Map and Contact Form Code-along
+# HTML Contact Form Lab
+
+## Problem Statement
+
+Business and company websites of all types and sizes typically want to provide
+multiple ways for their customers or potential customers to contact them.  One
+of the most common ways to do this is to provide a _contact form_.
+
+In this lab, we will practice using HTML forms by creating a contact form. We
+will only be focused on building out the front end side of the form - it is
+typically up to the _backend_ of a website to decide how to handle and store
+form data when submitted, which is not within the scope of this lesson.
 
 ## Objectives
 
-1. Embed Google Map as an iframe
-2. Creating a Contact Form
+1. Apply our understanding of HTML forms by building a functional a contact form
 
-## Introduction
+## Deliverables
 
-Building upon previous code alongs, in this exercise you will add an embedded
-iframe map by coding along with the video provided, reviewing the concepts you
-were introduced to in the previous lessons. This lesson, along with the next
-set of lessons, has starter code available, so you will be able to follow each
-video with the content provided.
+To see and test your form in action, run `httpserver` or open `index.html` in a
+new browser tab. To test your work, run `learn`.
 
-However, If you were following along using a personal `exceptional-realty`
-repository in the previous HTML lessons, you can continue from where we left
-off by running the following in your terminal:
+Some basic HTML has been provided for this lab, along with HTML comments on what
+is needed.  Follow the provided comments and test errors to see what is required
+when creating the form.  At completion, your form should have:
 
-```
-git clone https://github.com/<your_username_here>/exceptional-realty
-cd exceptional-realty
-```
+* A _required_ text input for a full name with a placeholder, "Enter Name"
+* A _required_ email type input for an email address with a placeholder, "Enter Email"
+* A _tel_ type input for a telephone number with a placeholder, "Enter Telephone (optional)"
+* A text area for a user to include a message with a placeholder, "Enter Message"
+* Labels for each text input
+* A checkbox with text of your choosing
+* A submit button
 
-## Instructions
-
-* Open the Learn IDE to automatically clone down this lab, or [manually open the lab](http://help.learn.co/workflow-tips/github/how-to-manually-open-a-lab) if
-  you're working in your own text editor.
-* Code along with the provided video below and/or its supplementary reading
-  located below the video. Code everything you see there. Feel free to stop,
-  pause, rewind or fast forward through the content to keep pace.
-
-<iframe width="640" height="480" src="//www.youtube.com/embed/lYHcdsF0Iug?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
-
-**NOTE**: The Google Maps interface has changed slightly since this video was
-recorded.
-
-### Map Embed
-
-Start by creating a new feature branch in Terminal by typing `git checkout -b contact-page`.
-
-Then open the contact.html page. Under the `<h3>Contact</h3>` write some
-comments for the content we will add like so,
-
-```html
-<h3>Contact</h3>
-
-<!-- Map -->
-
-<!-- Contact Form -->
-```
-
-Next, in your browser head to [https://www.google.com/maps](https://www.google.com/maps) and search for a general location. I searched for `Brooklyn Heights, Brooklyn, NY`.
-
-Now click the menu icon located at the top left of the screen and select
-**Share or embed map**. Then click the **Embed map** tab.
-
-Next to the link with the iframe code click the drop menu to select the size of
-the iframe and choose **Custom size**. Then set the width to `425` pixels wide
-and set the height to `350` pixels tall. Then highlight the iframe embed code
-and copy it to your clipboard using Command + c (Mac) or Ctrl + c (Windows) and
-the head back to your code editor and paste the code snippet Command + v (Mac)
-or Ctrl + v (Windows) under the comment `<!--map-->` like so,
-
-```html
-<!-- Map -->
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6049.881319200985!2d-74.00151372674895!3d40.69730452928296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a47df06b185%3A0xc889234bc07c42ee!2sBrooklyn+Heights%2C+Brooklyn%2C+NY+11201!5e0!3m2!1sen!2sus!4v1461598289488" width="425" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-```
-
-This long code snippet uses the `<iframe>` element that allows us to load
-another HTML page inside of a frame within our HTML page. It is like looking
-through a window from our page into another page displaying a Google Map.
-
-Next go ahead and save this page and preview it in the browser. The map should
-look something like this:
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6049.881319200985!2d-74.00151372674895!3d40.69730452928296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a47df06b185%3A0xc889234bc07c42ee!2sBrooklyn+Heights%2C+Brooklyn%2C+NY+11201!5e0!3m2!1sen!2sus!4v1461598289488" width="425" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-Looks good! Let's stage and commit our code. In Terminal type `git add contact.html` and press return. Then type `git commit -m "add google map to contact page"` and press return. Then we will push up our feature branch as a
-backup for safe keeping, type `git push -u origin contact-page` and press
-return.
 
 ### Form
 
@@ -164,41 +117,12 @@ The `placeholder` value will appear inside the form input until the user starts
 typing in their own content.
 
 The `required` attribute will prevent the browser from submitting the form
-until all required fields are filled in properly. Again this is functionality
+until all required inputs are filled in properly. Again this is functionality
 is baked into HTML5 for us automatically.
 
 The last input on line 11 has a type of "submit" this gives us a submit button
 to submit the form. The value attribute in this case displays the text that
 will appear on our submit button.
 
-Next, save the file and refresh the page in the browser to see your form
-appear. The following code should create a form that displays like the
-following example below,
-
-<form>
-    <label for="fullname">Name</label>
-    <input type="text" id="fullname" name="fullname" placeholder="your name" required style="border:1px solid black; display:block; padding:5px;">
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email" placeholder="your email" required style="border:1px solid black; display:block; padding:5px;">
-    <label for="phone">Phone</label>
-    <input type="tel" id="phon" name="phone" placeholder="your phone (optional)" style="border:1px solid black; display:block; padding:5px;">
-    <label for="message">Message</label>
-    <textarea id="message" name="message" rows="10"></textarea>
-    <input type="submit" value="send" style="border:1px solid black; display:block; padding:5px;" disabled onClick="function(){ alert('Submit has been disabled to prevent interference with Learn!') }">
-</form>
-
-Ok, looks good! Now stage and commit your code. In Terminal type
-`git add contact.html` and press return, then type
-`git commit -m "add contact form to contact page"` and press return. Then type
-`git push origin contact-page`.
-
-Since we are satisfied with our work on our contact page and we feel this
-feature is publishable we can include the work in our master branch. To do so
-in Terminal type `git checkout master` and press return to switch to your
-master branch then type `git merge contact-page` and press return to merge in
-your commits from the contact-page branch. Then to update our remote type `git push origin master` and press return.
-
-After you're finished, submit a pull request on Github by typing "learn submit"
-in the terminal and move on to the next lesson!
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/html-map-contact-form-code-along'>HTML Map Contact Form Code-along</a> on Learn.co and start learning to code for free.</p>
