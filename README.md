@@ -56,8 +56,8 @@ clipboard. In `index.html` paste the code snippet.
 
 ## Reinforce Our Understanding of Iframes
 
-We've already got a basic `iframe` from Google. To pass all the tests, we'll need to add
-the following attributes:
+We've already got a basic `iframe` from Google. To pass all the tests, we'll
+need to add the following attributes:
 
 * Edit/Add a `width` attribute set to "100%"
 * Edit/Add a `height` attribute set to "400px"
