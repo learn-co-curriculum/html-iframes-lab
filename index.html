@@ -3,14 +3,37 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <title>My Awesome Company Contact Page</title>
+    <title>My Awesome Dog Walking Contact Page</title>
   </head>
   <body>
 
-    <h1>Company Inc.</h1>
-    <h2>For all your incorporated company needs</h2>
+    <h1>Walkies, Inc.</h1>
+    <h2>For all your dog walking needs</h2>
+    
+    <h3>Want to find us?</h3>
+    <!-- Create an iframe tag -->
 
-    <!-- Create an iframe tag-->
+    <form action="post">
+      <label for="ownername">Owner Name</label>
+      <input type="text" id="ownername" name="ownername" placeholder="Owner Name" required>
 
+      <label for="email">Owner Email</label>
+      <input type="email" id="email" name="email" placeholder="Owner Email" required>
+
+      <label for="phone">Owner Telephone (optional)</label>
+      <input type="tel" id="phone" name="phone" placeholder="Owner Telephone (optional)">
+
+      <label for="message">Anything we should know about your dog?</label>
+      <textarea id="message" name="message" placeholder="Dog notes">
+
+      <h3>What are your dogs favorite toys?</h3>
+      <input type="checkbox" id="checkbox" name="toy-1" value="kong"> Kong <br>
+      <input type="checkbox" id="checkbox" name="toy-2" value="stuffed-animals">Stuffed Animals<br>
+      <input type="checkbox" id="checkbox" name="toy-3" value="rope-toys">Rope Toys<br>
+      <input type="checkbox" id="checkbox" name="toy-4" value="squeaky-toys">Squeaky Toys<br>
+      <input type="checkbox" id="checkbox" name="toy-5" value="balls">Balls, Frisbees, anything a dog can fetch!<br>
+
+      <input type="submit" value="Let me walk your dog!">
+      </form>
   </body>
 </html>
