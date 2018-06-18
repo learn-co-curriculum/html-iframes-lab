@@ -49,7 +49,6 @@ the following attributes:
 
 * Add a `width` attribute set to "100%"
 * Add a `height` attribute set to "400px"
-* Change the `frameborder` attribute to "1"
 
 Run `learn` to test your work and `learn submit` once you've passed all the
 tests.
