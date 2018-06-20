@@ -20,13 +20,5 @@ RSpec.describe 'index.html' do
       expect(iframe.attributes["height"].value).to eq("400px"), "The height attribute should be set to '400px'"
     end
 
-    it 'contains a "frameborder" attribute set to "1" ' do
-      iframe = parsed_html.search('iframe')[0]
-      expect(iframe.attributes["frameborder"]).to_not be_nil, "No frameborder attribute was found in the iframe"
-      expect(iframe.attributes["frameborder"].value).to eq("1"), "The frameborder attribute should be set to '1'"
-    end
-
   end
-
-
 end
