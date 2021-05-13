@@ -79,5 +79,3 @@ prove valuable in specific cases.
 
 ## Resources 
 - [Google Maps developer documentation](https://developers.google.com/maps/documentation/embed/guide)
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/html-map-contact-form-code-along'>HTML Map Contact Form Code-along</a> on Learn.co and start learning to code for free.</p>
