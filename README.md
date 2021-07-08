@@ -40,7 +40,7 @@ iframe.
 In your browser, head to
 [https://www.google.com/maps](https://www.google.com/maps) and search for a
 general location. For instance, a great place to walk dogs in New York City is
-`Central Park, New York, NY`.
+`Prospect Park, Brooklyn, NY`.
 
 Now, click the menu icon located at the top left of the screen and select
 **Share or embed map**. 
@@ -63,8 +63,7 @@ need to add the following attributes:
 * Edit/Add a `height` attribute set to "400px"
 * Change the `frameborder` attribute to "1"
 
-Run `learn` to test your work and `learn submit` once you've passed all the
-tests.
+Run `learn test` to test your work.
 
 
 ## Conclusion
@@ -80,4 +79,3 @@ prove valuable in specific cases.
 ## Resources 
 - [Google Maps developer documentation](https://developers.google.com/maps/documentation/embed/guide)
 
-<p class='util--hide'>View <a href='https://learn.co/lessons/html-map-contact-form-code-along'>HTML Map Contact Form Code-along</a> on Learn.co and start learning to code for free.</p>
