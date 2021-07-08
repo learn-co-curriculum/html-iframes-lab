@@ -45,7 +45,7 @@ general location. For instance, a great place to walk dogs in New York City is
 Now, click the menu icon located at the top left of the screen and select
 **Share or embed map**. 
 
-![Share or Embed Map](https://curriculum-content.s3.amazonaws.com/html-iframes/share-or-embed-map.png)
+![Share or Embed Map](https://curriculum-content.s3.amazonaws.com/html-iframes/share-or-embed-map-prospect.png)
 
 Then click the **Embed map** tab.
 
