@@ -1,7 +1,11 @@
 # HTML Iframe Lab
 
+## Learning Goals
 
-## Problem Statement
+- Incorporate an embedded Google map from scratch
+- Reinforce our understanding of iframes
+
+## Introduction
 
 The `iframe` element displays an entire HTML file inside itself, allowing one
 HTML page to be contained within another. Before JavaScript became widely used
@@ -25,13 +29,6 @@ In this lab, we will add an iframe to our existing HTML contact form for
 Walkies, Inc. To do this, we will be incorporating an embedded map similar to
 those we see on business websites.
 
-
-## Objectives
-
-1. Incorporate an embedded Google map from scratch
-2. Reinforce our understanding of iframes
-
-
 ## Incorporate an Embedded Google Map from Scratch
 
 Before we can get to writing HTML, we need to get a map to embed within an
@@ -53,7 +50,6 @@ Google provides the entire iframe tag, but we will add some additional
 attributes manually. Highlight the iframe embed code and copy it to your
 clipboard. In `index.html` paste the code snippet.
 
-
 ## Reinforce Our Understanding of Iframes
 
 We've already got a basic `iframe` from Google. To pass all the tests, we'll
@@ -65,7 +61,6 @@ need to add the following attributes:
 
 Run `learn lest` to test your work.
 
-
 ## Conclusion
 
 The `iframe` element allows us to load another HTML page inside our own HTML
@@ -76,5 +71,6 @@ While many uses of `iframe` tags were replaced with JavaScript, they still
 prove valuable in specific cases.
 
 
-## Resources 
+## Resources
+
 - [Google Maps developer documentation](https://developers.google.com/maps/documentation/embed/guide)
