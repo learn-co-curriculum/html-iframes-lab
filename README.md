@@ -40,7 +40,7 @@ general location. For instance, a great place to walk dogs in New York City is
 `Prospect Park, Brooklyn, NY`.
 
 Now, click the menu icon located at the top left of the screen and select
-**Share or embed map**. 
+**Share or embed map**.
 
 ![Share or Embed Map](https://curriculum-content.s3.amazonaws.com/html-iframes/share-or-embed-map-prospect.png)
 
@@ -55,9 +55,9 @@ clipboard. In `index.html` paste the code snippet.
 We've already got a basic `iframe` from Google. To pass all the tests, we'll
 need to add the following attributes:
 
-* Edit/Add a `width` attribute set to "100%"
-* Edit/Add a `height` attribute set to "400px"
-* Change the `frameborder` attribute to "1"
+- Edit/Add a `width` attribute set to "100%"
+- Edit/Add a `height` attribute set to "400px"
+- Change the `frameborder` attribute to "1"
 
 Run `learn lest` to test your work.
 
@@ -69,7 +69,6 @@ displaying a Google Map.
 
 While many uses of `iframe` tags were replaced with JavaScript, they still
 prove valuable in specific cases.
-
 
 ## Resources
 
