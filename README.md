@@ -1,4 +1,4 @@
-# HTML Iframe Lab
+# HTML IFrames Lab
 
 ## Learning Goals
 
