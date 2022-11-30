@@ -1,0 +1,27 @@
+{
+  "name": "html-iframes-lab",
+  "version": "1.0.0",
+  "description": "HTML Iframes Lab",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R mocha-multi --timeout 5000 --reporter-options spec=-,json=.results.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learn-co-curriculum/html-iframes-lab.git"
+  },
+  "author": "flatironschool",
+  "license": "Included in repo",
+  "bugs": {
+    "url": "https://github.com/learn-co-curriculum/html-iframes-lab/issues"
+  },
+  "homepage": "https://github.com/learn-co-curriculum/html-iframes-lab#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-dom": "^1.11.0",
+    "global-jsdom": "^8.6.0",
+    "jsdom": "^20.0.3",
+    "mocha": "^10.1.0",
+    "mocha-multi": "^1.1.7"
+  }
+}
