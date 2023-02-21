@@ -59,7 +59,7 @@ need to add the following attributes:
 - Edit/Add a `height` attribute set to "400px"
 - Change the `frameborder` attribute to "1"
 
-Run `learn lest` to test your work.
+Run `npm test` to test your work.
 
 ## Conclusion
 
